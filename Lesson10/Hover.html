@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Example</title>
+    <style>
+        .hover-box {
+            width: 150px;
+            height: 100px;
+            background-color: #4CAF50;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .hover-box:hover {
+            background-color: #388E3C;
+            transform: scale(1.05);
+        }
+
+        .hover-link {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .hover-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hover State Example</h1>
+
+    <div class="hover-box">Hover over me</div>
+
+    <a class="hover-link" href="#">Hover over this link</a>
+
+</body>
+</html>

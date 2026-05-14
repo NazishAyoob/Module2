@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Active and Disabled Example</title>
+    <style>
+        .button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .button:active {
+            background-color: #005f75;
+            transform: translateY(2px);
+        }
+
+        .button:disabled {
+            background-color: #cccccc;
+            color: #666666;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Active and Disabled States</h1>
+
+    <button class="button">Normal Button</button>
+    <button class="button">Active Button</button>
+
+    <button class="button" disabled>Disabled Button</button>
+
+    <p>Click and hold the first button to see the <strong>:active</strong> state effect.</p>
+
+</body>
+</html>

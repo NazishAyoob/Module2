@@ -1,0 +1,99 @@
+/* Element Selector - targets all <p> elements */
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* ID Selector - targets element with id="main-title" */
+#main-title {
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Class Selector - targets elements with class="intro" */
+.intro {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c5aa0;
+}
+
+/* Descendant Selector - targets <p> elements inside .box */
+.box p {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Class Selector with specific styling */
+.highlight {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    padding: 10px;
+    color: #856404;
+}
+
+/* ID Selector for button */
+#special-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* ID Selector with hover pseudo-class */
+#special-button:hover {
+    background-color: #ff5252;
+}
+
+/* Class Selector for list */
+.list {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Descendant Selector for list items */
+.list li {
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+/* Class Selector for first item */
+.first-item {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Class Selector for last item */
+.last-item {
+    color: #dc3545;
+    font-style: italic;
+}
+
+/* Class Selector for buttons */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Multiple Class Selector - targets elements with both .btn and .primary */
+.btn.primary {
+    background-color: #28a745;
+    font-weight: bold;
+}
+
+/* Pseudo-class for button hover */
+.btn:hover {
+    opacity: 0.8;
+}

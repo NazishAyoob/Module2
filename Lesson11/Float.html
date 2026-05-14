@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Float Example</title>
+    <style>
+        .float-left {
+            float: left;
+            width: 150px;
+            height: 100px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .float-right {
+            float: right;
+            width: 150px;
+            height: 100px;
+            background-color: #2196F3;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .content {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Float Example</h1>
+
+    <div class="float-left">Float left</div>
+    <div class="float-right">Float right</div>
+
+    <div class="content">
+        <p>This paragraph flows around the floated boxes. The left box floats to the left and the right box floats to the right.</p>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <p>Using <strong>clear: both;</strong> after floated elements prevents the next content from wrapping around them.</p>
+
+</body>
+</html>

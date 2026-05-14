@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Shadow, Text Indent & Box Shadow Example</title>
+    <style>
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        .text-shadow-color {
+            text-shadow: 1px 1px 0px #ff0000, -1px -1px 0px #0000ff;
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        .text-indent {
+            text-indent: 50px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .box-shadow {
+            width: 200px;
+            height: 100px;
+            background-color: #f0f0f0;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .box-shadow-inset {
+            width: 200px;
+            height: 100px;
+            background-color: #e0e0e0;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .multiple-shadows {
+            width: 200px;
+            height: 100px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.3), 0 0 30px rgba(0, 0, 255, 0.2);
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Text Shadow, Text Indent & Box Shadow</h1>
+
+    <p class="text-shadow">This text has a shadow effect.</p>
+
+    <p class="text-shadow-color">This text has colored shadows.</p>
+
+    <p class="text-indent">This paragraph has indented text. The first line is indented by 50 pixels, which is commonly used for creating a classic paragraph style in documents and articles.</p>
+
+    <div class="box-shadow">
+        <p>This box has a drop shadow.</p>
+    </div>
+
+    <div class="box-shadow-inset">
+        <p>This box has an inset shadow.</p>
+    </div>
+
+    <div class="multiple-shadows">
+        <p>This box has multiple colored shadows.</p>
+    </div>
+
+</body>
+</html>

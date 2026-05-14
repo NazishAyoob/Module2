@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Box Model Example</title>
+    <style>
+        .box {
+            width: 200px;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            margin: 20px;
+            background-color: #e8f5e9;
+        }
+
+        .inner-box {
+            width: 100px;
+            padding: 10px;
+            border: 2px dashed #2196F3;
+            margin: 10px;
+            background-color: #e3f2fd;
+        }
+
+        .outer-box {
+            width: 250px;
+            padding: 15px;
+            border: 2px solid #ff9800;
+            margin: 20px auto;
+            background-color: #fff3e0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box Model</h1>
+
+    <div class="box">
+        <p>This box has padding, border, and margin.</p>
+        <div class="inner-box">Inner box with its own padding, border, and margin.</div>
+    </div>
+
+    <div class="outer-box">
+        <p>The box model includes content, padding, border, and margin.</p>
+    </div>
+
+    <p>Inspect the blocks to see how the content area, padding, border, and margin create spacing around elements.</p>
+
+</body>
+</html>

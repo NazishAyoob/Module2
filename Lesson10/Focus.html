@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Focus Example</title>
+    <style>
+        input {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus {
+            border-color: #66afe9;
+            outline: none;
+            box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+        }
+
+        button:focus {
+            outline: 2px solid #f39c12;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Focus State Example</h1>
+
+    <label for="name">Name:</label>
+    <input id="name" type="text" placeholder="Enter your name">
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email">
+
+    <br>
+    <button>Submit</button>
+
+    <p>Click inside an input field or the button to see the <strong>:focus</strong> styling.</p>
+
+</body>
+</html>

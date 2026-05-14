@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Precise Positioning</title>
+    <style>
+        .container {
+            position: relative;
+            width: 400px;
+            height: 250px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+        }
+
+        .box1 {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: 80px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+
+        .box2 {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 120px;
+            height: 80px;
+            background-color: #2196F3;
+            color: white;
+            padding: 10px;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 140px;
+            height: 80px;
+            background-color: #FF9800;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Precise Positioning</h1>
+
+    <div class="container">
+        <div class="box1">Top left</div>
+        <div class="box2">Bottom right</div>
+        <div class="box3">Center</div>
+    </div>
+
+    <p>This example uses <strong>position: absolute</strong> inside a <strong>position: relative</strong> container. The center box is placed using <strong>transform: translate(-50%, -50%)</strong>.</p>
+
+</body>
+</html>
